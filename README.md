@@ -1,5 +1,7 @@
 # git-training
 
+Check the performance
+
 def snappy_compress(path):
     path_to_store = path+'.snappy'
     with open(path,'rb') as in_file:
@@ -20,4 +22,5 @@ def snappy_decompress(path):
             out_file.close()
             in_file.close()
     return path_to_store
+    
 snappy_decompress(r'C:\Users\show2\Downloads\input.csv.snappy')
